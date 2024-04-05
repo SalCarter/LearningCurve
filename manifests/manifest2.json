@@ -1,0 +1,75 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://SalCarter.github.io/LearningCurve/manifests/manifest2.json",
+  "@type" : "sc:Manifest",
+  "label" : "Sal's holiday images",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Click to edit description]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://eb75c54e-6336-404c-a519-00d219fd7932",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://8fd26ff1-1bb7-4157-9ea6-dd64b6291a7f",
+      "@type" : "sc:Canvas",
+      "label" : "Jerash",
+      "height" : 3000,
+      "width" : 4000,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://4d2ec9a3-b6ab-484d-9e8f-150f6a844018",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/1010897/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/1010897",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 3000,
+          "width" : 4000
+        },
+        "on" : "http://8fd26ff1-1bb7-4157-9ea6-dd64b6291a7f"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://e3225f00-2e5e-4dfa-a446-c1ac63a8b07f",
+      "@type" : "sc:Canvas",
+      "label" : "Leaning Tower",
+      "height" : 3000,
+      "width" : 4000,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://632a8c76-4f46-419b-b353-2c418a4c0365",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/1000891/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/1000891",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 3000,
+          "width" : 4000
+        },
+        "on" : "http://e3225f00-2e5e-4dfa-a446-c1ac63a8b07f"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
