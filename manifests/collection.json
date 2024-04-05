@@ -1,0 +1,13 @@
+{
+  "id" : "https://SalCarter.github.io/LearningCurve/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in SalCarter/LearningCurve project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://SalCarter.github.io/LearningCurve/manifests/manifest2.json",
+    "label" : "Sal's holiday images"
+  } ]
+}
