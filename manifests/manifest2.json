@@ -9,7 +9,7 @@
     "@language" : "en"
   } ],
   "license" : "https://creativecommons.org/licenses/by/3.0/",
-  "attribution" : "[Click to edit attribution]",
+  "attribution" : "[Copyright Sal Carter]",
   "sequences" : [ {
     "@id" : "http://eb75c54e-6336-404c-a519-00d219fd7932",
     "@type" : "sc:Sequence",
